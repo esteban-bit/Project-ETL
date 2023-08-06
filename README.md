@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/esteban-bit/sql-data-base-building">
-    <img src= "Imagenes/etl.png" alt="Logo" width="1000" height="250">
+    <img src= "imagenes/etl.png" alt="Logo" width="1000" height="250">
   </a>
 
   <h3 align="center" style="font-size: 25px">Extracción, transformación y carga (ETL)</h3>
@@ -31,7 +31,7 @@
 
 ## Teletrabajo
 
- <img src="Imagenes/ley.png" alt="Logo" width="450" height="200">
+ <img src="imagenes/ley.png" alt="Logo" width="450" height="200">
 
 ## Objetivo
 
