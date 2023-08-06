@@ -29,15 +29,15 @@
     
 </div> 
 
-## Teletrabajo
+# Teletrabajo
 
  <img src="imagenes/ley.png" alt="Logo" width="450" height="200">
 
 ## Objetivo
 
-  El proyecto se basa en un conjunto de datos. Donde tendré que importarlo, limpiar y procesar los datos.
+  El proyecto se basa en un conjunto de datos, donde se procede a importar, limpiar y procesar dichos datos.
 
-  * Debes extraer datos de 3 fuentes.
+  * Extraer datos de 3 fuentes.
   * 2 metodos de extracion.
   
 ## Proceso
@@ -45,3 +45,29 @@
 Se realiza el proceso con las herramientas de Python para la limpieza de datos, 2 metodos de extracion CSV, Scrap y SQL para crear las relaciones.
 
 Se analiza el conjunto de datos obtenido por los distintos metodos para comenzar a trabajar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/esteban-cardona-60163685/
