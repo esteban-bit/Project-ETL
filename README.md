@@ -118,8 +118,12 @@ Tabla.to_csv('tabla.csv', index = False)
 
 Tras extraer los datos, se crean los siguientes Queries de análisis:
 
-- Query 1: ¿Cuáles son los munucipios mas caros por m2?
+- Query 1: ¿Cuáles son los municipios más caros por m2?
 - Query 2: ¿Cuáles son los municipios más asequibles cerca de Madrid?
+  
+Estos datos son útiles para empezar a crear una aplicación que ayude a las personas a encontrar una casa para teletrabajar. La aplicación podría tener en cuenta factores como el precio y la distancia a Madrid. 
+
+En el futuro, la aplicación podría ampliarse para incluir otros factores como el número de días soleados, la disponibilidad de trabajo, la presencia de mar, la calidad del aire, la calidad del agua, la seguridad y la oferta cultural.
 
 ### 8.1 TOP 10 DE CIUDADES MÁS CARAS POR M2.
 
