@@ -64,7 +64,7 @@ ciudades =ciudades.copy()
 
 ciudades.tail()
 ```
-# 3. Limpieza de Valores nulos.
+## 3. Limpieza de Valores nulos.
 
 Empezamos limpiando por columnas
 
@@ -74,33 +74,33 @@ Empezamos limpiando por columnas
 - Tiempo medio de viaje a Barcelona en tren o autobús
 - Precio medio vivienda (EUR/m2)
 
-# 4. Se utiliza Selenium para escrapear Idealista
+## 4. Se utiliza Selenium para escrapear Idealista
 
 - Se extrae tabla con sus columnas y datos
 - Se utiliza pandas para crear un datafrane
 - Se procede a guardar el dataFrame como csv
 
-# 5. Equivalencia y relación de tablas
+## 5. Equivalencia y relación de tablas
 
 - Se eliminan valores N/D de la tabla origen.
 - Se explora los datos nulos y se busca valores corretos en Apalmet.
 - Se procede a guardar el dataFrame
 
-## 5.1 Relacion de tablas
+### 5.1 Relacion de tablas
 
 - Se crea diccionario con Municipios para crear relacion entre tablas.
 - Limpieza por valores numericos para hacerlo mas efectivo.
 - Se procede a guardar el dataFrame
 - Creacion tabla Municipios para relacion entre tablas de ciudades y la escrepeada de idealista
 
-## 5.2 Limpieza de valores numericos
+### 5.2 Limpieza de valores numericos
 
 - Limpiar valores numericos de columnas con valores de texto, ya que sera necesario para operar entre tablas.
 - Se eliminan espacios en las columnas
 - De la columna Preciom2jul se elimina €/m2
 - Columna de tiempo, se establecen como 00:00:00
 
-# 6. Se procede a guardar CSV.
+## 6. Se procede a guardar CSV.
 
 ```
 # Procedo a guardar los datos y nos ponemos a crear base de datos.
@@ -109,14 +109,14 @@ idealista.to_csv('idealista2.csv', index= False)
 ciudades2.to_csv('ciudades2.csv', index = False)
 Tabla.to_csv('tabla.csv', index = False)
 ```
-# 7. Creación de tablas y relación con SQL.
+## 7. Creación de tablas y relación con SQL.
 
 - Se importan dataframe a sql con sqlalchemy
 
 
-# 9.QUERIES
+## 8.QUERIES
 
-## 9.1 TOP 10 DE CIUDADES MAS CARAS POR M2.
+### 8.1 TOP 10 DE CIUDADES MAS CARAS POR M2.
 
 ``` 
 SELECT DISTINCT m.ComunidadAutónoma, i.Preciom2jul
@@ -129,7 +129,7 @@ limit 10
 
 <img src="imagenes/10.png" alt="Logo" width="500" height="300">
 
-## 9.2 TOP 10 DE CIUDADES MAS CARAS POR M2.
+### 8.2 TOP 10 DE CIUDADES MAS CARAS POR M2.
 ```
 SELECT DISTINCT c.Municipio, i.Preciom2jul, c.`DistanciaaMadrid(km)`
 FROM idealista AS i
