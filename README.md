@@ -144,7 +144,7 @@ INNER JOIN ciudades AS c ON c.IDComunidadAutonoma = m.IDComunidadAutonoma
 ORDER BY CAST(REPLACE(i.Preciom2jul, '.', '') AS UNSIGNED) ASC
 limit 15 ;
 ```
-Pordemos Oservar que Talavera de la Reina es la ciudad mas cercana a Madrid y mas barata por m2
+Pordemos Observar que Talavera de la Reina es la ciudad mas cercana a Madrid y mas barata por m2
 
 <img src="imagenes/madrid.png" alt="Logo" width="500" height="300">
 
