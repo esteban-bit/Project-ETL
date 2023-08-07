@@ -42,7 +42,7 @@
   
 ## Proceso
 
-Se realiza el proceso con las herramientas de Python para la limpieza de datos, 2 métodos de extración CSV, Scrap y SQL para crear las relaciones.
+Se realiza el proceso con las herramientas de Python para la limpieza de datos, 2 métodos de extracción CSV, Scrap y SQL para crear las relaciones.
 
 Se analiza el conjunto de datos obtenido por los distintos métodos para comenzar a trabajar.
 
