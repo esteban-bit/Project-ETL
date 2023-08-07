@@ -77,7 +77,7 @@ Empezamos limpiando por columnas
 ## 4. Se utiliza Selenium para escrapear Idealista
 
 - Se extrae tabla con sus columnas y datos
-- Se utiliza pandas para crear un datafrane
+- Se utiliza pandas para crear un dataframe
 - Se procede a guardar el dataFrame como csv
 
 ## 5. Equivalencia y relación de tablas
