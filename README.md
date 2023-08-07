@@ -64,7 +64,7 @@ ciudades =ciudades.copy()
 
 ciudades.tail()
 ```
-## 3. Limpieza de Valores nulos.
+## 3. Limpieza de valores nulos.
 
 Empezamos limpiando por columnas
 
