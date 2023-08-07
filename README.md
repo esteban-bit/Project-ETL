@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/esteban-bit/sql-data-base-building">
-    <img src= "imagenes/etl.png" alt="Logo" width="1000" height="350">
+    <img src= "imagenes/etl.png" alt="Logo" width="1000" height="300">
   </a>
 
   <h3 align="center" style="font-size: 25px">Extracción, transformación y carga (ETL)</h3>
@@ -38,13 +38,13 @@
   El proyecto se basa en un conjunto de datos, donde se procede a importar, limpiar y procesar dichos datos.
 
   * Extraer datos de 3 fuentes.
-  * 2 metodos de extracion.
+  * 2 métodos de extracción.
   
 ## Proceso
 
-Se realiza el proceso con las herramientas de Python para la limpieza de datos, 2 metodos de extracion CSV, Scrap y SQL para crear las relaciones.
+Se realiza el proceso con las herramientas de Python para la limpieza de datos, 2 métodos de extración CSV, Scrap y SQL para crear las relaciones.
 
-Se analiza el conjunto de datos obtenido por los distintos metodos para comenzar a trabajar.
+Se analiza el conjunto de datos obtenido por los distintos métodos para comenzar a trabajar.
 
 ## 1. Instalamos las librerias e importamos :
 ```
@@ -83,19 +83,19 @@ Empezamos limpiando por columnas
 ## 5. Equivalencia y relación de tablas
 
 - Se eliminan valores N/D de la tabla origen.
-- Se explora los datos nulos y se busca valores corretos en Apalmet.
+- Se explora los datos nulos y se busca valores correctos en Apalmet.
 - Se procede a guardar el dataFrame
 
-### 5.1 Relacion de tablas
+### 5.1 Relación de tablas
 
-- Se crea diccionario con Municipios para crear relacion entre tablas.
-- Limpieza por valores numericos para hacerlo mas efectivo.
+- Se crea diccionario con Municipios para crear relación entre tablas.
+- Limpieza por valores numericos para hacerlo más efectivo.
 - Se procede a guardar el dataFrame
-- Creacion tabla Municipios para relacion entre tablas de ciudades y la escrepeada de idealista
+- Creación tabla Municipios para relación entre tablas de ciudades y la escrepeada de idealista
 
-### 5.2 Limpieza de valores numericos
+### 5.2 Limpieza de valores numéricos
 
-- Limpiar valores numericos de columnas con valores de texto, ya que sera necesario para operar entre tablas.
+- Limpiar valores numéricos de columnas con valores de texto, ya que será necesaria para operar entre tablas.
 - Se eliminan espacios en las columnas
 - De la columna Preciom2jul se elimina €/m2
 - Columna de tiempo, se establecen como 00:00:00
@@ -114,9 +114,14 @@ Tabla.to_csv('tabla.csv', index = False)
 - Se importan dataframe a sql con sqlalchemy
 
 
-## 8.QUERIES
+## 8. QUERIES
 
-### 8.1 TOP 10 DE CIUDADES MAS CARAS POR M2.
+Tras extraer los datos, se crean los siguientes Queries de análisis:
+
+- Query 1: ¿Cuáles mas caros por m2?
+- Query 2: ¿Cuáles son los municipios más asequibles cerca de Madrid?
+
+### 8.1 TOP 10 DE CIUDADES MÁS CARAS POR M2.
 
 ``` 
 SELECT DISTINCT m.ComunidadAutónoma, i.Preciom2jul
@@ -126,10 +131,11 @@ INNER JOIN ciudades AS c ON c.IDComunidadAutonoma = m.IDComunidadAutonoma
 ORDER BY CAST(REPLACE(i.Preciom2jul, '.', '') AS UNSIGNED) DESC
 limit 10
 ```
+Podemos observar que Cataluña e Islas baleares son mas caras. 
 
 <img src="imagenes/10.png" alt="Logo" width="500" height="300">
 
-### 8.2 TOP 10 DE CIUDADES MAS CARAS POR M2.
+### 8.2 15 Municipios más asequibles cerca de Madrid.
 ```
 SELECT DISTINCT c.Municipio, i.Preciom2jul, c.`DistanciaaMadrid(km)`
 FROM idealista AS i
@@ -138,6 +144,8 @@ INNER JOIN ciudades AS c ON c.IDComunidadAutonoma = m.IDComunidadAutonoma
 ORDER BY CAST(REPLACE(i.Preciom2jul, '.', '') AS UNSIGNED) ASC
 limit 15 ;
 ```
+Pordemos Oservar que Talavera de la Reina es la ciudad mas cercana a Madrid y mas barata por m2
+
 <img src="imagenes/madrid.png" alt="Logo" width="500" height="300">
 
 <!-- MARKDOWN LINKS & IMAGES -->
