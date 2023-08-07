@@ -51,7 +51,7 @@ Jaén,Jaén,111669,N/D,7.1,332,03:14:00,03:13:00,796,07:36:00,12:00:00,Federico 
 Jerez de la Frontera,Cádiz,212730,14.6,7.7,618,05:37:00,03:58:00,1080,10:39:00,11:42:00,Jerez,16,11.5,32,6,N/D,No,15,71,13,0,0,0,400,3316,1
 L'Hospitalet de Llobregat,Barcelona,265444,N/D,14.5,620,06:08:00,02:50:00,6,00:22:00,00:06:00,"Josep Tarradellas
 Barcelona-El Prat",170,9.8,29,5,N/D,No,17,73,7,9,0,0,404,2453,8
-Las Palmas de Gran Canaria,Las Palmas,378797,6.6,11.1,1928,13:00:00,N/D,2546,42:00:00,N/D,Gran Canaria,127,25.2,27,16,2119,No,16,65,7,4,2,2,379,2800,4
+Las Palmas de Gran Canaria,Las Palmas,378797,6.6,11.1,1928,1900-01-01 13:00:00,N/D,2546,42:00:00,N/D,Gran Canaria,127,25.2,27,16,2119,No,16,65,7,4,2,2,379,2800,4
 Leganés,Madrid,186660,16.1,10.6,20,00:27:00,00:18:00,630,06:03:00,02:59:00,"Adolfo Suárez 
 Madrid-Barajas",174,28.0,33,0,N/D,No,12,71,12,2,0,0,390,2691,9
 León,León,120951,18.2,6.8,340,03:25:00,02:12:00,777,07:28:00,12:00:00,Valladolid,6,129.0,27,0,1318,Sí,58,33,5,5,0,0,443,nan,7
@@ -93,7 +93,7 @@ Sant Cugat del Vallès,Barcelona,95725,52,14.2,614,06:08:00,03:42:00,19,00:30:00
 Barcelona-El Prat",170,25.6,29,3,N/D,No,52,44,3,1,0,0,445,2453,8
 Santa Coloma de Gramenet,Barcelona,117981,2.5,12.5,627,06:10:00,03:10:00,9,00:20:00,00:22:00,"Josep Tarradellas
 Barcelona-El Prat",170,23.2,29,4,N/D,No,75,25,0,N/D,0,0,475,2453,8
-Santa Cruz de Tenerife,Santa Cruz de Tenerife,208688,3.3,9.6,1950,17:00:00,N/D,2425,45:00:00,N/D,Tenerife Norte-La Laguna,24,12.0,28,15,1716,No,9,72,6,0,2,4,367,3098,4
+Santa Cruz de Tenerife,Santa Cruz de Tenerife,208688,3.3,9.6,1950,1900-01-01 17:00:00,N/D,2425,45:00:00,N/D,Tenerife Norte-La Laguna,24,12.0,28,15,1716,No,9,72,6,0,2,4,367,3098,4
 Santander,Cantabria,171693,19.2,9.3,455,04:19:00,05:53:00,703,06:50:00,09:45:00,"Seve Ballesteros-
 Santander",23,5.6,23,6,1998,No,43,50,4,3,0,0,431,1639,5
 Santiago de Compostela,A Coruña,98179,N/D,8.2,600,05:37:00,03:22:00,1085,11:00:00,13:00:00,Santiago-Rosalía de Castro,33,14.2,25,5,N/D,Sí,35,61,3,N/D,0,0,430,2453,13
@@ -101,7 +101,7 @@ Sevilla,Sevilla,681998,27.6,10.6,530,05:02:00,02:42:00,994,09:58:00,11:06:00,Sev
 Talavera de la Reina,Toledo,83247,12,5.8,123,01:18:00,01:20:00,741,07:08:00,09:49:00,"Adolfo Suárez 
 Madrid-Barajas",174,139.0,35,2,N/D,Sí,28,60,7,0,0,0,409,2815,6
 Tarragona,Tarragona,134883,N/D,9.2,552,05:21:00,04:16:00,98,01:14:00,01:15:00,Reus,14,10.9,29,5,1828,Sí,32,62,6,2,0,0,426,2820,8
-Telde,Las Palmas,102472,N/D,8.2,1945,13:00:00,N/D,2563,43:00:00,N/D,Gran Canaria,127,10.9,26,15,N/D,No,18,69,4,N/D,1,2,389,nan,4
+Telde,Las Palmas,102472,N/D,8.2,1945,1900-01-01 13:00:00,N/D,2563,43:00:00,N/D,Gran Canaria,127,10.9,26,15,N/D,No,18,69,4,N/D,1,2,389,nan,4
 Terrassa,Barcelona,224114,8.3,10.2,620,06:00:00,03:26:00,28,00:37:00,00:47:00,"Josep Tarradellas
 Barcelona-El Prat",170,34.8,29,1,N/D,No,73,26,1,1,0,0,472,2453,8
 Toledo,Toledo,85085,36.4,7.9,75,00:56:00,01:00:00,686,06:37:00,03:45:00,"Adolfo Suárez 
