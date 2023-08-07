@@ -89,7 +89,7 @@ Empezamos limpiando por columnas
 ### 5.1 Relación de tablas
 
 - Se crea diccionario con Municipios para crear relación entre tablas.
-- Limpieza por valores numericos para hacerlo más efectivo.
+- Limpieza por valores numéricos para hacerlo más efectivo.
 - Se procede a guardar el dataFrame
 - Creación tabla Municipios para relación entre tablas de ciudades y la escrepeada de idealista
 
@@ -114,7 +114,7 @@ Tabla.to_csv('tabla.csv', index = False)
 - Se importan dataframe a sql con sqlalchemy
 
 
-## 8. QUERIES
+## 8. Queries
 
 Tras extraer los datos, se crean los siguientes Queries de análisis:
 
@@ -125,7 +125,7 @@ Estos datos son útiles para empezar a crear una aplicación que ayude a las per
 
 En el futuro, la aplicación podría ampliarse para incluir otros factores como el número de días soleados, la disponibilidad de trabajo, la presencia de mar, la calidad del aire, la calidad del agua, la seguridad y la oferta cultural.
 
-### 8.1 TOP 10 DE CIUDADES MÁS CARAS POR M2.
+### 8.1 Top 10 ciudades más caras por m2.
 
 ``` 
 SELECT DISTINCT m.ComunidadAutónoma, i.Preciom2jul
@@ -148,7 +148,7 @@ INNER JOIN ciudades AS c ON c.IDComunidadAutonoma = m.IDComunidadAutonoma
 ORDER BY CAST(REPLACE(i.Preciom2jul, '.', '') AS UNSIGNED) ASC
 limit 15 ;
 ```
-Pordemos Observar que Talavera de la Reina es la ciudad mas cercana a Madrid y mas barata por m2
+Podemos observar que Talavera de la Reina es la ciudad más cercana a Madrid y más barata por m2.
 
 <img src="imagenes/madrid.png" alt="Logo" width="500" height="300">
 
