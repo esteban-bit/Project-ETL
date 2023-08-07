@@ -118,7 +118,7 @@ Tabla.to_csv('tabla.csv', index = False)
 
 Tras extraer los datos, se crean los siguientes Queries de análisis:
 
-- Query 1: ¿Cuáles mas caros por m2?
+- Query 1: ¿Cuáles son los munucipios mas caros por m2?
 - Query 2: ¿Cuáles son los municipios más asequibles cerca de Madrid?
 
 ### 8.1 TOP 10 DE CIUDADES MÁS CARAS POR M2.
